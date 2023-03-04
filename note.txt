@@ -1,0 +1,70 @@
+Client ID: 668428752956-d8i6ac0jemot2pj8q1gc4hcqlnpknom0.apps.googleusercontent.com
+Client Secret: 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
+
+
+Terminal ID / Mã Website (vnp_TmnCode): L9A4GM1Y
+Secret Key / Chuỗi bí mật tạo checksum (vnp_HashSecret): JOLEYEPUFBTHJZEEQDWLQEKYERQLNWZY
+
+Ngân hàng	      NCB
+Số thẻ	          9704198526191432198
+Tên chủ thẻ	      NGUYEN VAN A
+Ngày phát hành	  07/15
+Mật khẩu OTP	  123456
+
+http://localhost:8080/BANHANG_LARAVEL/payment?
+  vnp_Amount=208210800
+  vnp_BankCode=NCB
+  vnp_BankTranNo=VNP13758796
+  vnp_CardType=ATM
+  vnp_OrderInfo=Thanh+To%C3%A1n+%C4%90%C6%A1n+H%C3%A0ng+VNPAY
+  vnp_PayDate=20220528215414
+  vnp_ResponseCode=00
+  vnp_TmnCode=L9A4GM1Y
+  vnp_TransactionNo=13758796
+  vnp_TransactionStatus=00
+  vnp_TxnRef=9997
+vnp_SecureHash=da063178f6d3a909ab28d02e259a3c862fb129f4cc9f7894d2222df921cf26ca8cf5cef8585536f4d0ee498d29d4fd7103c5a47363110a6fbb41b111c403c17f
+
+<!-- <div class="col-sm-5 text-center">
+    <small class="text-muted inline m-t-sm m-b-sm">showing 20-30 of 50 items</small>
+  </div>
+  <div class="col-sm-7 text-right text-center-xs">                
+    <ul class="pagination pagination-sm m-t-none m-b-none">
+       {!!$all_category_product->links()!!}
+    </ul>
+</div> -->
+
+</table>
+				<p>Tên Khách Hàng:&nbsp;&nbsp;'.$shipping->shipping_name.' <br>
+				SĐT:&nbsp;&nbsp;'.$shipping->shipping_phone.' <br>
+				Email: &nbsp;&nbsp;'.$customer->customer_email.' <br>
+				Địa Chỉ: &nbsp;&nbsp;'.$shipping->shipping_address.' <br>
+Ghi Chú: &nbsp;&nbsp;'.$shipping->shipping_notes.' </p> <br>'
+
+<div class="info-user">
+			<table  style="width: 100%;">
+				
+					<tr>
+						<th>Tên Khách Hàng</th>
+						<th>Số Điện Thoại</th>
+						<th>Email</th>
+						<th>Địa Chỉ</th>
+						<th>Ghi Chú</th>
+					</tr>
+				
+					<tr>
+						<td>'.$shipping->shipping_name.'</td>
+						<td>'.$shipping->shipping_phone.'</td>
+						<td>'.$customer->customer_email.'</td>
+						<td>'.$shipping->shipping_address.'</td>
+						<td>'.$shipping->shipping_notes.'</td>
+					</tr>
+				
+			<table>
+</div>
+
+
+
+
+
+
